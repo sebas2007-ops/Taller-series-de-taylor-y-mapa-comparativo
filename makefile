@@ -1,4 +1,5 @@
 CXX = g++
+CXXFLAGS=-std=c++17 -02
 TARGET = programa
 OBJS = main.o taylor.o
 build: $(TARGET)
